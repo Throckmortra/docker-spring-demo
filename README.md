@@ -28,7 +28,7 @@ docker login
 Retag your image and push it
 ```bash
 docker tag demo <your-username>/demo
-docker push <your-username>/demo:latest
+docker push <your-username>/demo
 ```
 
 ### The following commands require an AWS access key and ID. 
