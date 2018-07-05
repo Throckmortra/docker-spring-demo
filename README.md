@@ -1,4 +1,4 @@
-##Demo Walkthrough
+## Demo Walkthrough
 
 This Spring app has a single REST endpoint for saying Hello. It uses an embedded Tomcat server via Spring Web to 
 smoothly run in Docker. I also added the maven-resources plugin to make packaging easier.
@@ -13,14 +13,17 @@ smoothly run in Docker. I also added the maven-resources plugin to make packagin
 `docker run -p 8080:8080 demo:latest`
 
 Create a Dockerhub account and make a demo repository. Login
-`docker login`
+```bash
+docker login
+```
 
 Retag your image and push it
-`docker tag demo <your-username>/demo`
-`docker push <your-username>/demo:latest`
+```bash
+docker tag demo <your-username>/demo
+docker push <your-username>/demo:latest
+```
 
-
-####The following commands require an AWS access key and ID. 
+#### The following commands require an AWS access key and ID. 
 
 Configure your credentials
 `aws configure`
