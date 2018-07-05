@@ -13,7 +13,7 @@ cd target
 ```
 Build docker image
 ```bash
-docker build . -t <demo
+docker build . -t demo
 ```
 Run locally
 ```bash
